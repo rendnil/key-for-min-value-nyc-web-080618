@@ -23,6 +23,6 @@ end
 end
 
 
-name_hash = {a: 5, b: 2, c:7}
+name_hash = {a: 15, b: 12, c:7}
 #key_for_min_value(name_hash)
 puts key_for_min_value(name_hash)
