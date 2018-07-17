@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
 
  
- comp_value = [ ]
+ 
  
  # collect keys
  keys = name_hash.collect do |key, value|
