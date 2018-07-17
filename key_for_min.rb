@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
  keys = name_hash.collect do |key, value|
    key
   end
- puts comp_value = name_hash[:key][0]
+ comp_value = name_hash[keys[0]]
 
 end
 
