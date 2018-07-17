@@ -11,13 +11,14 @@ def key_for_min_value(name_hash)
    key
   end
  comp_value = name_hash[keys[0]]
-
+ lowest_key = keys[0]
 name_hash.collect do |key, value|
   if value <= comp_value
-    key
+    lowest_key = key
   end
 end  
 
+lowest_key
 
 end
 
